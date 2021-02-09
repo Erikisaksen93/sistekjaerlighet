@@ -17,8 +17,32 @@
                         "footer1 footer2 footer3";
 }
 
-.main {
+.login {
     position: relative;
     grid-area: content2;
+    text-align: center; 
+}
+
+.register {
+    grid-area: main3;
+    text-align: right;
+}
+
+input {
+    width: 210px;
+    font-weight: bolder;
+    color: black;
     text-align: center;
+    font-size: 1em;
+}
+
+#errorMessage {
+    color: red;
+    position: relative;
+    top: -30px;
+}
+
+.buttons {
+    position: relative;
+    top: -30px;
 }
