@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#app {
+    display: grid;
+    height: 100vh;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+                        "main1 main2 main3"
+                        "content1 content2 content3"
+                        "footer1 footer2 footer3";
+}
+
+.main {
+    position: relative;
+    grid-area: content2;
+    text-align: center;
+}
